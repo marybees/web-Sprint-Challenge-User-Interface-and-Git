@@ -127,6 +127,35 @@ nav a {
 
 /*Middle Content*/
 
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-strategy {
+    display: flex;
+    flex-direction: column;
+    width: 40%
+}
+
+.container-how {
+    display: flex;
+    flex-direction: column;
+    width: 40%
+}
+
+.container-places {
+    display: flex;
+    flex-direction: column;
+    width: 40%
+}
+
+.container-collaboration {
+    display: flex;
+    flex-direction: column;
+    width: 40%
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
