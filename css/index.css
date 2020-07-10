@@ -51,7 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid red !important;
+    /*border: 1px solid red !important;*/
 }
 
 html, body {
@@ -138,17 +138,6 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-/*.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
 
 .middle-content .boxes .box-1 {
     width: 12.5%;
