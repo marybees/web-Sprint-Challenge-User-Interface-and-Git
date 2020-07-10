@@ -51,6 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid red !important;
 }
 
 html, body {
@@ -69,6 +70,28 @@ p {
 }
 
 /*Header*/
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
+.lambda-logo {
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 56%;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
 
 /*Top Content*/
 
