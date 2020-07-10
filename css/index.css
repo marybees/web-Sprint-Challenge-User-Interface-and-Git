@@ -23,7 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -51,12 +53,12 @@ table {
 
 * {
     box-sizing: border-box;
-    /*border: 1px solid red !important;*/
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -100,6 +102,7 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+
 /*Top Content*/
 
 .container {
@@ -109,7 +112,7 @@ nav a {
 
 .container-about-page {
     border-bottom: 1px dashed black;
-    padding: 2%;
+    padding: 0 2% 2% 2%;
 }
 
 .top-content {
@@ -372,6 +375,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-weight: lighter;
 }
 
 footer nav a {
