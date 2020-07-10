@@ -109,6 +109,7 @@ nav a {
 
 .container-about-page {
     border-bottom: 1px dashed black;
+    padding: 2%;
 }
 
 .top-content {
@@ -130,30 +131,35 @@ nav a {
 .flex-box {
     display: flex;
     flex-wrap: wrap;
+    margin: 2%;
+}
+
+.flex-box h4{
+    border-bottom: 1px dashed black;
 }
 
 .container-strategy {
     display: flex;
     flex-direction: column;
-    width: 40%
+    width: 50%
 }
 
 .container-how {
     display: flex;
     flex-direction: column;
-    width: 40%
+    width: 50%
 }
 
 .container-places {
     display: flex;
     flex-direction: column;
-    width: 40%
+    width: 50%
 }
 
 .container-collaboration {
     display: flex;
     flex-direction: column;
-    width: 40%
+    width: 50%
 }
 
 .middle-content {
