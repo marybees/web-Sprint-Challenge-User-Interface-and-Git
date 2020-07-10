@@ -93,6 +93,12 @@ nav a {
     color: black;
 }
 
+#header-image {
+    display: flex;
+    margin: 0 0 20px 0;
+    justify-content: center;
+    align-items: center;
+}
 /*Top Content*/
 
 .container {
