@@ -23,7 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,6 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+/*General Styles*/
+
 * {
     box-sizing: border-box;
 }
@@ -54,6 +58,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,9 +71,48 @@ p {
     line-height: 1.4;
 }
 
+/*Header*/
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
+.lambda-logo {
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 54%;
+    justify-content: flex-start;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 0 0 12%;
+}
+
+#header-image {
+    display: flex;
+    margin: 0 0 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Top Content*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container-about-page {
+    border-bottom: 1px dashed black;
+    padding: 0 2% 2% 2%;
 }
 
 .top-content {
@@ -83,6 +127,92 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/*Middle Content*/
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+h3 {
+    padding: 3% 0 0 0;
+}
+
+.flex-box p {
+    padding: 0 10% 0 0;
+}
+
+.learn-button {
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 35%;
+    margin: 5% 0 5% 0;
+    border-width: medium;
+}
+
+.container-strategy .line {
+    border-bottom: 1px dashed black;
+}
+
+.container-how .line {
+    border-bottom: 1px dashed black;
+}
+
+.container-places .line {
+    border-bottom: 1px dashed black;
+}
+
+.container-collaboration .line {
+    border-bottom: 1px dashed black;
+}
+
+.learn-button p {
+    text-align: center;
+    padding: 5%;
+}
+
+.flex-box .container-strategy {
+    padding: 2%;
+}
+
+.flex-box .container-how {
+    padding: 2%;
+}
+
+.flex-box .container-places {
+    padding: 2%;
+}
+
+.flex-box .container-collaboration {
+    padding: 2%;
+}
+
+.container-strategy {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-how {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-places {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-collaboration {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .middle-content {
@@ -102,14 +232,59 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 12.5%;
+    height: 100px;
+}
+
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
+}
+
+/*Bottom Content*/
+
+.container-work-together {
+    padding: 0 2% 5% 2%;
 }
 
 .bottom-content {
@@ -126,6 +301,8 @@ p {
     padding-right: 0;
 }
 
+/*Footer*/
+
 footer {
     width: 100%;
     background: black;
@@ -138,6 +315,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-weight: lighter;
 }
 
 footer nav a {
