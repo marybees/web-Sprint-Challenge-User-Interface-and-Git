@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*General Styles*/
+
 * {
     box-sizing: border-box;
 }
@@ -66,6 +68,10 @@ p {
     line-height: 1.4;
 }
 
+/*Header*/
+
+/*Top Content*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,6 +90,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*Middle Content*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +120,8 @@ p {
     justify-content: center;
 }
 
+/*Bottom Content*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +135,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*Footer*/
 
 footer {
     width: 100%;
